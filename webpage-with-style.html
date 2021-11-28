@@ -1,22 +1,45 @@
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <title>Web Page With Style</title>
+    <style type="text/css">
+      .red {
+        color: red;
+      }
 
-<head>
-    <title> Web Page With Style </title>
-    <style>
-        p {
-            color: red;
-            font-size: 200%;
-        }
+      .large {
+        font-size: 300%;
+      }
+
+      #green {
+        color: green;
+      }
+
+      .underlined {
+        text-decoration: underline;
+      }
+
+      #first-section {
+        color: blue;
+        background-color: #8BBA95;
+        width: 520px;
+      }
     </style>
-</head>
+  </head>
 
+  <body>
+    <div id="first-section">
+      <p class="red large">Testing some p tag here !</p>
 
-<body>
-    <p>Testing some p tag here !</p>
+      <h1 class="large">CSS is cool !</h1>
+    </div>
 
-    <h1>CSS is cool !</h1>
-</body>
+    <p>Another P tag over here !</p>
 
+    <p id="green">
+      There is more text.
+      <span class="underlined red">And this sentence is underlined.</span>
+    </p>
+  </body>
 </html>
